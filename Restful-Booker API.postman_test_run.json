@@ -1,0 +1,452 @@
+{
+	"id": "b39a5d4a-6f1a-4af4-8878-b36008037355",
+	"name": "Restful-Booker API",
+	"timestamp": "2025-02-21T06:48:13.230Z",
+	"collection_id": "2868984-807a3d2b-46f7-4f1e-b341-21a693ede1e4",
+	"folder_id": 0,
+	"environment_id": "2868984-f7fa2d00-62fc-4c6d-a82d-0a67c710cd0c",
+	"totalPass": 28,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-02-21T06:48:11.915Z",
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "b0ffbcf4-a4b5-4012-8666-cc5bf1ee39e3",
+			"name": "Auth - CreateToken",
+			"url": "https://restful-booker.herokuapp.com/auth",
+			"time": 121,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should return a object": true,
+				"Should contain the `token` property in the response": true,
+				"Should return a string for the `token` property": true,
+				"Response status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Should return a object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should contain the `token` property in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should return a string for the `token` property": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				121
+			],
+			"allTests": [
+				{
+					"Should return a object": true,
+					"Should contain the `token` property in the response": true,
+					"Should return a string for the `token` property": true,
+					"Response status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "fbb55cf2-d8cc-4af0-82b4-cb2eb159c4cd",
+			"name": "CreateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Should have a valid JSON format response body": true,
+				"Should have the `bookingid` property in the response object and is a non-negative integer": true,
+				"Should have the required 'booking' object in the response": true,
+				"Should have expected 'booking' data in the response": true,
+				"Response status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Should have a valid JSON format response body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have the `bookingid` property in the response object and is a non-negative integer": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have the required 'booking' object in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have expected 'booking' data in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Should have a valid JSON format response body": true,
+					"Should have the `bookingid` property in the response object and is a non-negative integer": true,
+					"Should have the required 'booking' object in the response": true,
+					"Should have expected 'booking' data in the response": true,
+					"Response status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "8b7de098-704e-4e06-8909-1df706a2aeb7",
+			"name": "GetBookingIds",
+			"url": "https://restful-booker.herokuapp.com/booking",
+			"time": 77,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response should be an array of booking IDs": true,
+				"Should contain booking id 4124 in the response array": true
+			},
+			"testPassFailCounts": {
+				"Response should be an array of booking IDs": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should contain booking id 4124 in the response array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				77
+			],
+			"allTests": [
+				{
+					"Response should be an array of booking IDs": true,
+					"Should contain booking id 4124 in the response array": true
+				}
+			]
+		},
+		{
+			"id": "4d3b23da-3e32-40cb-abed-f44bb43c4856",
+			"name": "GetBookingIdsByName",
+			"url": "https://restful-booker.herokuapp.com/booking?firstname=Molly&lastname=Bogisich",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response should be an array of booking IDs for firstname=Molly and lastname=Bogisich": true,
+				"Should contain booking id 4124 in the response array": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response should be an array of booking IDs for firstname=Molly and lastname=Bogisich": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should contain booking id 4124 in the response array": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response should be an array of booking IDs for firstname=Molly and lastname=Bogisich": true,
+					"Should contain booking id 4124 in the response array": true
+				}
+			]
+		},
+		{
+			"id": "d6bdfbd1-329b-4e2d-a730-227603046551",
+			"name": "GetBookingIdsByDate",
+			"url": "https://restful-booker.herokuapp.com/booking?checkin=2018-01-01&checkout=2019-01-01",
+			"time": 32,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response should be an array of booking IDs for checkin=2018-01-01 and checkout=2019-01-01": false,
+				"Should contain booking id 4124 in the response array": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response should be an array of booking IDs for checkin=2018-01-01 and checkout=2019-01-01": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Should contain booking id 4124 in the response array": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response should be an array of booking IDs for checkin=2018-01-01 and checkout=2019-01-01": false,
+					"Should contain booking id 4124 in the response array": false
+				}
+			]
+		},
+		{
+			"id": "f366ef10-ed7b-48b3-8ec3-7c5200dda2c8",
+			"name": "GetBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/4124",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Should contain 'object' in the response": true,
+				"Should return the correct booking data": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should contain 'object' in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should return the correct booking data": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Should contain 'object' in the response": true,
+					"Should return the correct booking data": true
+				}
+			]
+		},
+		{
+			"id": "1db7ab1e-8f3f-4a81-909e-3c07e305f31b",
+			"name": "UpdateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/4124",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200 (OK)": true,
+				"Should have a valid JSON format response body": true,
+				"Should have the required 'booking' object in the response": true,
+				"Should have expected 'booking' data in the response": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 (OK)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have a valid JSON format response body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have the required 'booking' object in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have expected 'booking' data in the response": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Status code is 200 (OK)": true,
+					"Should have a valid JSON format response body": true,
+					"Should have the required 'booking' object in the response": true,
+					"Should have expected 'booking' data in the response": true
+				}
+			]
+		},
+		{
+			"id": "756ad1ef-c736-4686-af39-fad7ad1f64f6",
+			"name": "PartialUpdateBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/4124",
+			"time": 28,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200 (OK)": true,
+				"Should have a valid JSON format response body": true,
+				"Should have the required 'booking' object in the response": true,
+				"Should have expected 'booking' data in the response": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200 (OK)": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have a valid JSON format response body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have the required 'booking' object in the response": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Should have expected 'booking' data in the response": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				28
+			],
+			"allTests": [
+				{
+					"Status code is 200 (OK)": true,
+					"Should have a valid JSON format response body": true,
+					"Should have the required 'booking' object in the response": true,
+					"Should have expected 'booking' data in the response": true
+				}
+			]
+		},
+		{
+			"id": "381dde40-16cd-49f0-9058-418ce08d02bb",
+			"name": "DeleteBooking",
+			"url": "https://restful-booker.herokuapp.com/booking/4124",
+			"time": 32,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				32
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "39652e6e-1b0c-432b-a29d-e4a28093fc77",
+			"name": "Ping - HealthCheck",
+			"url": "https://restful-booker.herokuapp.com/ping",
+			"time": 23,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 427,
+	"collection": {
+		"requests": [
+			{
+				"id": "b0ffbcf4-a4b5-4012-8666-cc5bf1ee39e3",
+				"method": "POST"
+			},
+			{
+				"id": "fbb55cf2-d8cc-4af0-82b4-cb2eb159c4cd",
+				"method": "POST"
+			},
+			{
+				"id": "8b7de098-704e-4e06-8909-1df706a2aeb7",
+				"method": "GET"
+			},
+			{
+				"id": "4d3b23da-3e32-40cb-abed-f44bb43c4856",
+				"method": "GET"
+			},
+			{
+				"id": "d6bdfbd1-329b-4e2d-a730-227603046551",
+				"method": "GET"
+			},
+			{
+				"id": "f366ef10-ed7b-48b3-8ec3-7c5200dda2c8",
+				"method": "GET"
+			},
+			{
+				"id": "1db7ab1e-8f3f-4a81-909e-3c07e305f31b",
+				"method": "PUT"
+			},
+			{
+				"id": "756ad1ef-c736-4686-af39-fad7ad1f64f6",
+				"method": "PATCH"
+			},
+			{
+				"id": "381dde40-16cd-49f0-9058-418ce08d02bb",
+				"method": "DELETE"
+			},
+			{
+				"id": "39652e6e-1b0c-432b-a29d-e4a28093fc77",
+				"method": "GET"
+			}
+		]
+	}
+}

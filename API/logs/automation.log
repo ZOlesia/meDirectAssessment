@@ -1,0 +1,336 @@
+01:16:20.372 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:16:20.524 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:16:20.527 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:16:20.686 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:16:20.688 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:16:20.924 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:16:20.925 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:16:21.054 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:16:21.055 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:16:21.202 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:16:21.204 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:16:21.350 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:16:21.352 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:16:21.498 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:16:21.671 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:16:21.809 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:16:21.955 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:16:22.231 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:16:22.233 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:16:22.531 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:16:22.533 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:16:22.868 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:16:22.870 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:16:23.149 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:16:23.151 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:16:23.287 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:16:23.289 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:16:23.562 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:16:23.565 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:16:23.895 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:16:23.897 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:16:24.028 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:21:24.652 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:21:25.267 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:21:25.276 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:21:25.646 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:21:25.650 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:21:25.798 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:21:25.801 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:21:25.938 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:21:25.946 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:21:26.083 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:21:26.087 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:21:26.263 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:21:26.265 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:21:26.417 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:21:26.421 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:21:26.560 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:21:26.564 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:21:26.728 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:21:26.730 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:21:26.882 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:21:27.029 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:21:27.186 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:21:27.327 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:21:27.608 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:21:27.612 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:21:27.899 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:21:27.903 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:21:28.230 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:21:28.234 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:21:28.562 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:21:28.563 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:21:28.701 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:21:28.705 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:21:28.983 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:21:28.987 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:21:29.280 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:21:29.284 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:21:29.423 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:22:56.665 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:22:57.229 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:22:57.240 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:22:57.629 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:22:57.633 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:22:57.776 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:22:57.778 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:22:57.917 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:22:57.922 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:22:58.061 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:22:58.062 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:22:58.261 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:22:58.262 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:22:58.403 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:22:58.405 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:22:58.548 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:22:58.549 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:22:58.697 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:22:58.699 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:22:58.885 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:22:59.028 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:22:59.171 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:22:59.320 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:22:59.613 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:22:59.616 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:22:59.906 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:22:59.908 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:23:00.211 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:23:00.214 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:23:00.508 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:23:00.509 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:23:00.666 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:23:00.668 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:23:00.933 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:23:00.936 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:23:01.221 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:23:01.223 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:23:01.352 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:26:54.847 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:26:55.393 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:26:55.400 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:26:55.790 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:26:55.796 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:26:55.935 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:26:55.939 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:26:56.072 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:26:56.079 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:26:56.218 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:26:56.222 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:26:56.475 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:26:56.477 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:26:56.620 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:26:56.624 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:26:56.782 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:26:56.786 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:26:56.939 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:26:56.941 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:26:57.095 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:26:57.243 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:26:57.393 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:26:57.533 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:26:57.846 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:26:57.850 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:26:58.145 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:26:58.147 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:26:58.481 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:26:58.486 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:26:58.767 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:26:58.770 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:26:58.904 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:26:58.907 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:26:59.186 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:26:59.189 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:26:59.515 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:26:59.517 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:26:59.646 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:28:40.462 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:28:41.057 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:28:41.071 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:28:41.440 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:28:41.446 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:28:41.579 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:28:41.584 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:28:41.722 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:28:41.729 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:28:41.873 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:28:41.877 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:28:42.148 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:28:42.150 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:28:42.290 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:28:42.294 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:28:42.439 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:28:42.444 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:28:42.590 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:28:42.592 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:28:42.741 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:28:42.886 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:28:43.035 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:28:43.185 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:28:43.469 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:28:43.474 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:28:43.777 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:28:43.782 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:28:44.139 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:28:44.143 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:28:44.407 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:28:44.410 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:28:44.544 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:28:44.546 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:28:44.810 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:28:44.812 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:28:45.155 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:28:45.157 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:28:45.300 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:30:18.021 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:30:18.588 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:30:18.597 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:30:18.990 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:30:18.993 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:30:19.130 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:30:19.131 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:30:19.263 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:30:19.268 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:30:19.405 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:30:19.408 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:30:19.688 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:30:19.690 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:30:19.822 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:30:19.824 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:30:19.979 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:30:19.982 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:30:20.133 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:30:20.134 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:30:20.301 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:30:20.457 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:30:20.610 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:30:20.765 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:30:21.079 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:30:21.082 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:30:21.386 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:30:21.387 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:30:21.762 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:30:21.766 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:30:22.066 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:30:22.069 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:30:22.216 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:30:22.219 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:30:22.496 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:30:22.499 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:30:22.868 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:30:22.870 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:30:23.012 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:31:15.662 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:31:16.214 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:31:16.224 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:31:16.595 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:31:16.598 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:31:16.729 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:31:16.732 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:31:16.863 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:31:16.871 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:31:17.022 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:31:17.024 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:31:17.305 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:31:17.308 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:31:17.454 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:31:17.458 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:31:17.608 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:31:17.610 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:31:17.758 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:31:17.760 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:31:17.919 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:31:18.071 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:31:18.244 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:31:18.398 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:31:18.689 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:31:18.693 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:31:18.998 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:31:19.002 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:31:19.401 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:31:19.405 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:31:19.704 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:31:19.708 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:31:19.857 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:31:19.862 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:31:20.166 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:31:20.169 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:31:20.520 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:31:20.524 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:31:20.663 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:34:02.872 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:34:03.421 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:34:03.432 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:34:03.804 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:34:03.806 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:34:03.943 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:34:03.947 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:34:04.091 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:34:04.097 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:34:04.238 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:34:04.241 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:34:04.425 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:34:04.426 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:34:04.565 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:34:04.568 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:34:04.725 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:34:04.728 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:34:04.876 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:34:04.877 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:34:05.023 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:34:05.190 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:34:05.335 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:34:05.486 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:34:05.763 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:34:05.765 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:34:06.052 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:34:06.054 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:34:06.352 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:34:06.354 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:34:06.648 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:34:06.649 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:34:06.786 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:34:06.787 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:34:07.060 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:34:07.061 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:34:07.356 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:34:07.357 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:34:07.490 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************
+01:35:05.009 [main] INFO  Assessment.API.e2e.TokenTest - ************** Creating Token **************
+01:35:05.608 [main] INFO  Assessment.API.e2e.TokenTest - ************** Token is created **************
+01:35:05.616 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Creating Booking **************
+01:35:05.966 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is created **************
+01:35:05.971 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating Booking with missing fields **************
+01:35:06.120 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with missing fields **************
+01:35:06.125 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Creating booking with invalid fields **************
+01:35:06.263 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished creating booking with invalid fields **************
+01:35:06.269 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking **************
+01:35:06.422 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is displayed **************
+01:35:06.424 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting all bookings **************
+01:35:06.644 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** All bookings are displayed **************
+01:35:06.646 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking with invalid id **************
+01:35:06.787 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking with invalid id **************
+01:35:06.790 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Getting booking ids with invalid date filter **************
+01:35:06.935 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished getting booking ids with invalid date filter **************
+01:35:06.939 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with name filters **************
+01:35:07.081 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Bookings with name filters are displayed **************
+01:35:07.083 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:35:07.242 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:35:07.415 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:35:07.572 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Getting booking with date filters **************
+01:35:07.723 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating non existing booking **************
+01:35:07.995 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating non existing booking **************
+01:35:07.998 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Updating booking **************
+01:35:08.305 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:35:08.309 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Updating booking with invalid data **************
+01:35:08.624 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished updating booking with invalid data **************
+01:35:08.628 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Partially updating booking **************
+01:35:08.918 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is updated **************
+01:35:08.920 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating non existing booking **************
+01:35:09.063 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating non existing booking **************
+01:35:09.066 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Deleting booking **************
+01:35:09.348 [main] INFO  Assessment.API.e2e.BookingPositiveTests - ************** Booking is deleted **************
+01:35:09.351 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Partially updating booking with invalid data **************
+01:35:09.660 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished partially updating booking with invalid data **************
+01:35:09.662 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Deleting non existing booking **************
+01:35:09.795 [main] INFO  Assessment.API.e2e.BookingNegativeTests - ************** Finished deleting non existing booking **************

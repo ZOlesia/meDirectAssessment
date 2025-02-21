@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="0" total="21" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-21T01:34:02 EST" name="Suite" finished-at="2025-02-21T01:34:07 EST" duration-ms="4734">
+    <groups>
+    </groups>
+    <test started-at="2025-02-21T01:34:02 EST" name="Test" finished-at="2025-02-21T01:34:07 EST" duration-ms="4734">
+      <class name="Assessment.API.e2e.BookingPositiveTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:03 EST" name="setUp" finished-at="2025-02-21T01:34:03 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBooking()[pri:1, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:03 EST" name="testCreateBooking" finished-at="2025-02-21T01:34:03 EST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method signature="testGetBooking()[pri:2, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:04 EST" name="testGetBooking" finished-at="2025-02-21T01:34:04 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooking -->
+        <test-method signature="testGetAllBookings()[pri:3, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:04 EST" name="testGetAllBookings" finished-at="2025-02-21T01:34:04 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllBookings -->
+        <test-method signature="testGetBookingsWithNameFilters()[pri:4, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:04 EST" name="testGetBookingsWithNameFilters" finished-at="2025-02-21T01:34:04 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingsWithNameFilters -->
+        <test-method retried="true" signature="testGetBookingsWithDateFilters()[pri:5, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:04 EST" name="testGetBookingsWithDateFilters" finished-at="2025-02-21T01:34:05 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="145" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Assessment.API.e2e.BookingPositiveTests.testGetBookingsWithDateFilters(BookingPositiveTests.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingsWithDateFilters -->
+        <test-method retried="true" signature="testGetBookingsWithDateFilters()[pri:5, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:05 EST" name="testGetBookingsWithDateFilters" finished-at="2025-02-21T01:34:05 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="166" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Assessment.API.e2e.BookingPositiveTests.testGetBookingsWithDateFilters(BookingPositiveTests.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingsWithDateFilters -->
+        <test-method retried="true" signature="testGetBookingsWithDateFilters()[pri:5, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:05 EST" name="testGetBookingsWithDateFilters" finished-at="2025-02-21T01:34:05 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="144" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Assessment.API.e2e.BookingPositiveTests.testGetBookingsWithDateFilters(BookingPositiveTests.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingsWithDateFilters -->
+        <test-method signature="testGetBookingsWithDateFilters()[pri:5, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:05 EST" name="testGetBookingsWithDateFilters" finished-at="2025-02-21T01:34:05 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="146" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+No bookings found with the specified date filters! expected [true] but found [false],
+Previously added booking ID not found in the response! expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at Assessment.API.e2e.BookingPositiveTests.testGetBookingsWithDateFilters(BookingPositiveTests.java:149)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:269)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingsWithDateFilters -->
+        <test-method signature="testUpdateBooking()[pri:6, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:05 EST" name="testUpdateBooking" finished-at="2025-02-21T01:34:06 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBooking -->
+        <test-method signature="testPartailUpdateBooking()[pri:7, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:06 EST" name="testPartailUpdateBooking" finished-at="2025-02-21T01:34:06 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartailUpdateBooking -->
+        <test-method signature="testDeleteBooking()[pri:8, instance:Assessment.API.e2e.BookingPositiveTests@10c626be, instance params:[{firstname=Jim, lastname=Brown, totalprice=111, depositpaid=true, bookingdates={checkin=2018-01-01, checkout=2019-01-01}, additionalneeds=Breakfast}]]" started-at="2025-02-21T01:34:06 EST" name="testDeleteBooking" finished-at="2025-02-21T01:34:07 EST" depends-on-methods="Assessment.API.e2e.BookingPositiveTests.testCreateBooking" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBooking -->
+      </class> <!-- Assessment.API.e2e.BookingPositiveTests -->
+      <class name="Assessment.API.e2e.BookingNegativeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:03 EST" name="setUp" finished-at="2025-02-21T01:34:03 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateBookingWithMissingFields()[pri:1, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:03 EST" name="testCreateBookingWithMissingFields" finished-at="2025-02-21T01:34:03 EST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingWithMissingFields -->
+        <test-method signature="testCreateBookingWithInvalidData()[pri:2, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:03 EST" name="testCreateBookingWithInvalidData" finished-at="2025-02-21T01:34:04 EST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBookingWithInvalidData -->
+        <test-method signature="testGetBookingWithInvalidId()[pri:3, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:04 EST" name="testGetBookingWithInvalidId" finished-at="2025-02-21T01:34:04 EST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingWithInvalidId -->
+        <test-method signature="testGetBookingIdsWithInvalidDateFilter()[pri:4, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:04 EST" name="testGetBookingIdsWithInvalidDateFilter" finished-at="2025-02-21T01:34:04 EST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingIdsWithInvalidDateFilter -->
+        <test-method signature="testUpdateNonExistentBooking()[pri:5, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:05 EST" name="testUpdateNonExistentBooking" finished-at="2025-02-21T01:34:05 EST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateNonExistentBooking -->
+        <test-method signature="testUpdateBookingWithInvalidData()[pri:6, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:06 EST" name="testUpdateBookingWithInvalidData" finished-at="2025-02-21T01:34:06 EST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBookingWithInvalidData -->
+        <test-method signature="testPartialUpdateNonExistentBooking()[pri:7, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:06 EST" name="testPartialUpdateNonExistentBooking" finished-at="2025-02-21T01:34:06 EST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartialUpdateNonExistentBooking -->
+        <test-method signature="testPartialUpdateWithInvalidData()[pri:8, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:07 EST" name="testPartialUpdateWithInvalidData" finished-at="2025-02-21T01:34:07 EST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPartialUpdateWithInvalidData -->
+        <test-method signature="testDeleteNonExistentBooking()[pri:9, instance:Assessment.API.e2e.BookingNegativeTests@63b1d4fa]" started-at="2025-02-21T01:34:07 EST" name="testDeleteNonExistentBooking" finished-at="2025-02-21T01:34:07 EST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteNonExistentBooking -->
+      </class> <!-- Assessment.API.e2e.BookingNegativeTests -->
+      <class name="Assessment.API.e2e.TokenTest">
+        <test-method is-config="true" signature="checkHealth()[pri:0, instance:Assessment.API.e2e.TokenTest@2262b621]" started-at="2025-02-21T01:34:01 EST" name="checkHealth" finished-at="2025-02-21T01:34:02 EST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHealth -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Assessment.API.e2e.TokenTest@2262b621]" started-at="2025-02-21T01:34:02 EST" name="setUp" finished-at="2025-02-21T01:34:02 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTokenCreation()[pri:0, instance:Assessment.API.e2e.TokenTest@2262b621]" started-at="2025-02-21T01:34:02 EST" name="testTokenCreation" finished-at="2025-02-21T01:34:03 EST" duration-ms="561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTokenCreation -->
+      </class> <!-- Assessment.API.e2e.TokenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

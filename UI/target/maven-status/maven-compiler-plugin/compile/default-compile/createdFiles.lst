@@ -1,0 +1,8 @@
+Assessment\UI\pages\AssetContainer.class
+Assessment\UI\utils\ExtentReportManager.class
+Assessment\UI\utils\RetryAnalyzer.class
+Assessment\UI\pages\EquitiesPage.class
+Assessment\UI\pages\BasePage.class
+Assessment\UI\pages\NavigationTabs.class
+Assessment\UI\config\Config.class
+Assessment\UI\utils\TestListener.class

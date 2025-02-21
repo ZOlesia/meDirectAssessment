@@ -1,0 +1,5 @@
+Assessment\API\e2e\BookingTestFactory.class
+Assessment\API\e2e\BookingPositiveTests.class
+Assessment\API\e2e\TokenTest.class
+Assessment\API\base\TestBase.class
+Assessment\API\e2e\BookingNegativeTests.class
