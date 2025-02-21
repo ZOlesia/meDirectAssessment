@@ -124,5 +124,3 @@ After test execution, reports will be available in the `reports/` folder in API 
 
 ---
 
-Now, your README file will display with proper styling, links, and code formatting on GitHub! 🚀
-
