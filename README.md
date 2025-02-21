@@ -109,6 +109,12 @@ This will run all TestNG test cases defined in `testng.xml`.
 
 ---
 
+## Notice
+
+⚠️ **One of the API tests is currently failing due to an issue with the GetBookingIds filtered by checkin/checkout date API at** [Restful-Booker](https://restful-booker.herokuapp.com/apidoc/index.html). This failure is expected and not related to the test framework itself.
+
+---
+
 ## **Dependencies**
 
 The frameworks use the following dependencies:
